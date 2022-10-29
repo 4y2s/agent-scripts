@@ -1,0 +1,20 @@
+#!/bin/bash
+
+    #Author :Saeed10/24/22
+    #Date : 01-Nov-2021
+
+## ---------- script that Install some packages in Linux -----------------
+
+yum install finger -y
+yum install curl -y
+yum install zip -y
+yum install vim -y
+
+if [ $? -eq 0 ]
+
+then
+echo "All package installed successfully!!!"
+else
+echo "All  package did not install please double check and try again"
+fi
+
